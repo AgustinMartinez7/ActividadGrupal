@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #111827;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+.post h3 {
+  margin-top: 0;
+}
+
+.comments {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.comment {
+  background: #f9fafb;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
