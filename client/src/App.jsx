@@ -33,7 +33,7 @@ function App() {
   // Crear un nuevo post
   async function handleCreatePost(newPost) {
     try {
-      const res = await fetch("/api/posts", {
+      const res = await fetch("http://localhost:4000/api/posts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newPost),
@@ -52,7 +52,7 @@ function App() {
   // Agregar comentario
   async function handleAddComment(postId, newComment) {
     try {
-      const res = await fetch(`/api/posts/${postId}/comments`, {
+      const res = await fetch(`http://localhost:4000/api/posts/${postId}/comments`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newComment),

@@ -33,5 +33,13 @@
     "author": "Maria",
     "createdAt": "2025-10-06T13:00:00.000Z",
     "comments": []
+  },
+  {
+    "id": 3,
+    "title": "Post 1",
+    "content": "Buenos dias",
+    "author": "Agustin",
+    "createdAt": "2025-10-06T12:55:18.123Z",
+    "comments": []
   }
 ]
