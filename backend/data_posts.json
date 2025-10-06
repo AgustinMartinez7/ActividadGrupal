@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Primer post de prueba",
+    "content": "Este es el contenido del primer post.",
+    "author": "Nico",
+    "createdAt": "2025-10-06T10:00:00.000Z",
+    "comments": [
+      {
+        "id": 1,
+        "author": "Ana",
+        "content": "¡Muy buen post!",
+        "createdAt": "2025-10-06T11:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "author": "Luis",
+        "content": "Gracias por compartir.",
+        "createdAt": "2025-10-06T12:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "author": "Jorge",
+        "content": "¡Muy buen post!",
+        "createdAt": "2025-10-06T12:09:28.012Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Segundo post de prueba",
+    "content": "Contenido del segundo post para probar el sistema.",
+    "author": "Maria",
+    "createdAt": "2025-10-06T13:00:00.000Z",
+    "comments": []
+  }
+]
