@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/posts");
+      const res = await fetch("http://localhost:4000/api/posts");
       if (!res.ok) throw new Error("Error al cargar posts");
       const data = await res.json();
       setPosts(data);
