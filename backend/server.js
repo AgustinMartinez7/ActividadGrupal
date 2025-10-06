@@ -6,7 +6,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 const postsRouter = require('./routers/postsRoutes');
+const tasksRouter = require('./routers/tasksRoutes');
+
 app.use("/api/posts", postsRouter);
+app.use("/api/tasks", tasksRouter);
 
 app.use((err, req, res, next) => {
     res.status(err.status || 500)
